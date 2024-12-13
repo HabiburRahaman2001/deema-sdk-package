@@ -1,0 +1,26 @@
+{
+  "name": "deema-sdk",
+  "version": "1.0.0",
+  "description": "Deema SDK NPM Package for display payment status of merchant app.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": ["deema", "sdk", "payment", "typescript"],
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "files": ["dist"],
+  "license": "MIT"
+}
